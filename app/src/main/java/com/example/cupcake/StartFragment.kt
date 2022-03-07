@@ -65,7 +65,7 @@ class StartFragment : Fragment() {
         }
 
         // Navigate to the next destination to select the flavor of the cupcakes
-        findNavController().navigate(R.id.action_startFragment_to_flavorFragment)
+        findNavController().navigate(R.id.action_flavorFragment_to_startFragment)
     }
 
     /**
@@ -76,4 +76,5 @@ class StartFragment : Fragment() {
         super.onDestroyView()
         binding = null
     }
+
 }

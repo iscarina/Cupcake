@@ -82,7 +82,7 @@ class OrderViewModel : ViewModel() {
         _price.value = calculatedPrice
     }
 
-  
+
     private fun getPickupOptions(): List<String> {
         val options = mutableListOf<String>()
         val formatter = SimpleDateFormat("E MMM d", Locale.getDefault())
